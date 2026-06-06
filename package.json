@@ -1,0 +1,30 @@
+{
+  "name": "vite-wrap",
+  "version": "1.0.0",
+  "description": "下一代前端构建工具封装 - Vite 极速开发体验 Python/Node 封装",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "demo:basic": "node demos/basic/index.js",
+    "demo:react": "node demos/react/index.js",
+    "demo:vue": "node demos/vue/index.js"
+  },
+  "keywords": [
+    "vite",
+    "frontend",
+    "build-tool",
+    "bundler",
+    "esm",
+    "hmr"
+  ],
+  "author": "q15004040209-creator",
+  "license": "MIT",
+  "peerDependencies": {
+    "typescript": ">=4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
